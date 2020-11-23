@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace CSharpAlgoData
+namespace CSharpAlgoData.Sorting
 {
     public class SelectionSort
     {
@@ -15,6 +15,7 @@ namespace CSharpAlgoData
             {
                 int minIndex = i;
                 T minValue = newArr[i];
+                //this loop will evaluate the last item in the array
                 for (int j = i + 1; j < newArr.Length; j++)
                 {
                     //less than = comes before
