@@ -8,6 +8,7 @@ namespace CSharpAlgoData.Sorting
     {
         //BIG-O = O(n^2)
         //there are two loops, essentially
+        //testing new git
         public T[] SectionSortFunction<T>(T[] arr) where T: IComparable
         {
             T[] newArr = arr;
