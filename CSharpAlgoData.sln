@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30717.126
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CSharpAlgoData", "CSharpAlgoData\CSharpAlgoData.csproj", "{CEAEFBD2-7859-42B6-ADF7-DD9FC0220166}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CEAEFBD2-7859-42B6-ADF7-DD9FC0220166}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CEAEFBD2-7859-42B6-ADF7-DD9FC0220166}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CEAEFBD2-7859-42B6-ADF7-DD9FC0220166}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CEAEFBD2-7859-42B6-ADF7-DD9FC0220166}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {0F93D068-C042-4E72-BB81-3D8BFE3028E2}
+	EndGlobalSection
+EndGlobal
