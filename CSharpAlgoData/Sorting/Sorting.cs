@@ -4,9 +4,10 @@ using System.Text;
 
 namespace CSharpAlgoData.Sorting
 {
-    //SELECTION SORT
-    //INSERTION SORT
-    //BUBBLE SORT
+    //SELECTION SORT//O(n^2)
+    //INSERTION SORT//O(n^2)
+    //BUBBLE SORT/////O(n^2)
+    //QUICKSORT//
 
     public class SelectionSort
     {
@@ -64,6 +65,8 @@ namespace CSharpAlgoData.Sorting
         }
     }
 
+    // BIG-O = O(n^2)
+    // for loops
     public class BubbleSort
     {
         public T[] BubbleSortFunction<T>(T[] arr) where T : IComparable
@@ -91,13 +94,69 @@ namespace CSharpAlgoData.Sorting
         }
     }
 
+    //must be unique numbers
+    //tutorialspoint version
+    //divide and conquer
+    // BIG-O = O(n log(n)) 
+    // recursion causes the set to divide each time
+    public static class QuickSort
+    {
+        public static void QuickSortFunction(int[] arr, int left, int right)
+        {
+            int pivot;
+            if (left < right)
+            {
+                pivot = Partition(arr, left, right);
+                if (pivot > 1)
+                {
+                    QuickSortFunction(arr, left, pivot - 1);
+                }
+                if (pivot + 1 < right)
+                {
+                    QuickSortFunction(arr, pivot + 1, right);
+                }
+            }
+        }
+        public static int Partition(int[] arr, int left, int right)
+        {
+            int pivot;
+            pivot = arr[left];
+            while (true)
+            {
+                while (arr[left] < pivot)
+                {
+                    left++;
+                }
+                while (arr[right] > pivot)
+                {
+                    right--;
+                }
+                if (left < right)
+                {
+                    int temp = arr[right];
+                    arr[right] = arr[left];
+                    arr[left] = temp;
+                }
+                else
+                {
+                    return right;
+                }
+            }
+        }
+        //int[] arr = new int[] { 3, 2, 4, 1, 0};
+        //QuickSort.QuickSortFunction(arr, 0, 4);
+        //for (int j = 0; j < 5; j++)
+        //{
+        //    Console.Write(arr[j] + " ");
+        //}
+        //Console.WriteLine(" ");
+        //int[] arr2 = { 67, 12, 95, 56, 85, 1, 100, 23, 60, 9 };
+        //int n = 10, i;
+        //QuickSort.QuickSortFunction(arr2, 0, 9);
+        //for (i = 0; i < n; i++)
+        //{
+        //    Console.Write(arr2[i] + " ");
+        //}
 
-    //private static void Swap<T>(T[] array, int first, int second)
-    //{
-    //    T temp = array[first];
-    //    array[first] = array[second];
-    //    array[second] = temp;
-    //}
-
-
+    }
 }
