@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Collections;
 
-namespace CSharpAlgoData.Lists.Simple
+namespace CSharpAlgoData.Lists
 {
     //when not generic, can hold different types
     public class SimpleArrayList

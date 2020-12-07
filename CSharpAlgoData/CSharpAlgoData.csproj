@@ -6,8 +6,6 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Folder Include="Lists\Generic\" />
-    <Folder Include="Lists\Sorted\" />
     <Folder Include="Dictionary and Sets\" />
     <Folder Include="Graphs\" />
     <Folder Include="Trees\" />
