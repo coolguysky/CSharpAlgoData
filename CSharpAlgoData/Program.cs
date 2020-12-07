@@ -1,5 +1,6 @@
 ﻿using System;
 using CSharpAlgoData.Sorting;
+using CSharpAlgoData.Lists.Simple;
 
 namespace CSharpAlgoData
 {
@@ -8,7 +9,8 @@ namespace CSharpAlgoData
   
         static void Main(string[] args)
         {
-            
+            SimpleArrayList arr = new SimpleArrayList();
+            arr.NonGeneric();
 
 
 

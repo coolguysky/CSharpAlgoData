@@ -7,12 +7,13 @@ namespace CSharpAlgoData.Sorting
     //SELECTION SORT//O(n^2)
     //INSERTION SORT//O(n^2)
     //BUBBLE SORT/////O(n^2)
-    //QUICKSORT//
+    //QUICKSORT///////O(n log(n)) 
 
     public class SelectionSort
     {
         //BIG-O = O(n^2)
         //there are two loops, essentially
+        //two arrays, exchanges smallest number with first number in unsorted
         public T[] SectionSortFunction<T>(T[] arr) where T : IComparable
         {
             T[] newArr = arr;
@@ -43,6 +44,7 @@ namespace CSharpAlgoData.Sorting
     {
         // BIG-O = O(n^2)
         // for and while loop 
+        //two arrays but will insert the smallest number in the sorted array
         public T[] InsertioSortFunction<T>(T[] arr) where T : IComparable
         {
             T[] newArr = arr;
@@ -67,6 +69,7 @@ namespace CSharpAlgoData.Sorting
 
     // BIG-O = O(n^2)
     // for loops
+    //will switch the numbers in a "bubble"
     public class BubbleSort
     {
         public T[] BubbleSortFunction<T>(T[] arr) where T : IComparable
