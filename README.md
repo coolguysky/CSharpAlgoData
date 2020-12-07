@@ -14,7 +14,7 @@ Review
 ## Sorting Algorithms
 
 | TIME | best | average | worst | *worst space* |
-| :---: | :---: | :---: | :---: | :---: | :---: |
+| :---: | :---: | :---: | :---: | :---: |
 | Selection Sort | Ω(n^2) | Θ(n^2) | O(n^2) | *O(1)* |
 | Insertion Sort | Ω(n) | Θ(n^2) | O(n^2) | *O(1)* |
 | Bubble Sort | Ω(n) | Θ(n^2) | O(n^2) | *O(1)* |
