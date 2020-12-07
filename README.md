@@ -12,16 +12,6 @@ Review
 | Doubly-Linked List | O(n) | O(n) | O(1) | O(1) | *O(n)* |
 
 ## Sorting Algorithms
-### O - Big Oh: f(n) = O(g(n))
-- f(n) = O(g(n)) if and only if there exist a positive constant, c and a positive integer, n0 , such that 0<= f(n)<= c*g(n) for all n, n>= n0
-- g(n) is the Upper bound of f(n)
-### Ω - Omega - f(n) = Ω(g(n))
-- if and only if there exist a positive constant c and a positive integer n 0 such that f(n) >= f(n) = Ω(g(n)) ~ f(n) >= c*g(n) >=0 for all n, n >= n0 
-- g(n) is Lower bound of f(n)
-### Θ - Theta: f(n) = Θ(g(n))
-- f(n) = Θ(g(n)) if and only if there exist positive constants c1 and c2 and a positive integer, n 0 , such that 0<= c1* g(n) <= f(n) <=c2 * g(n) for all n, n >= n 0
-- g(n) is both an upper and a lower bound of f(n).
-
 
 | TIME | best | average | worst | *worst space* |
 | :---: | :---: | :---: | :---: | :---: |
@@ -29,6 +19,16 @@ Review
 | Insertion Sort | Ω(n) | Θ(n^2) | O(n^2) | *O(1)* |
 | Bubble Sort | Ω(n) | Θ(n^2) | O(n^2) | *O(1)* |
 | Quicksort | Ω(n log(n)) | Θ(n log(n)) | O(n^2) | *O(log(n))* |
+
+### O - Big Oh: f(n) = O(g(n))
+- f(n) = O(g(n)) if and only if there exist a positive constant, c and a positive integer, n0 , such that 0<= f(n)<= c*g(n) for all n, n>= n0
+- g(n) is the Upper bound of f(n)
+### Ω - Omega - f(n) = Ω(g(n))
+- if and only if there exist a positive constant c and a positive integer n0 such that f(n) >= f(n) = Ω(g(n)) ~ f(n) >= c*g(n) >=0 for all n, n >= n0 
+- g(n) is Lower bound of f(n)
+### Θ - Theta: f(n) = Θ(g(n))
+- f(n) = Θ(g(n)) if and only if there exist positive constants c1 and c2 and a positive integer, n 0 , such that 0<= c1* g(n) <= f(n) <=c2 * g(n) for all n, n >= n 0
+- g(n) is both an upper and a lower bound of f(n)
 
 Textbook: C# Data Structures and Algorithms by Marcin Jamro
 bigocheatsheet.com
