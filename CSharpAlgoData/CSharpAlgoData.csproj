@@ -9,7 +9,6 @@
     <Folder Include="Dictionary and Sets\" />
     <Folder Include="Graphs\" />
     <Folder Include="Trees\" />
-    <Folder Include="Stacks and Queues\" />
   </ItemGroup>
 
   <ItemGroup>

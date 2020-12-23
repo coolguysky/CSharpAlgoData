@@ -1,6 +1,7 @@
 ﻿using System;
 using CSharpAlgoData.Sorting;
 using CSharpAlgoData.Lists;
+using CSharpAlgoData.Stacks_and_Queues;
 
 namespace CSharpAlgoData
 {
@@ -9,8 +10,7 @@ namespace CSharpAlgoData
   
         static void Main(string[] args)
         {
-            SpinWheel w = new SpinWheel();
-            w.BeginTheGame();
+
         }
     }
 }
