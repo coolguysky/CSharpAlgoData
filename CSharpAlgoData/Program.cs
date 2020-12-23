@@ -9,10 +9,8 @@ namespace CSharpAlgoData
   
         static void Main(string[] args)
         {
-           
-
-
-
+            SpinWheel w = new SpinWheel();
+            w.BeginTheGame();
         }
     }
 }
