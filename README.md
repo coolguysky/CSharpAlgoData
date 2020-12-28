@@ -12,6 +12,7 @@ Review
 | Doubly-Linked List | O(n) | O(n) | O(1) | O(1) | *O(n)* |
 | Stack | O(n) | O(n) | O(1) | O(1) | *O(n)* |
 | Queue | O(n) | O(n) | O(1) | O(1) | *O(n)* |
+| Hash Table | n/a | O(1) | O(1) | O(1) | *O(n)* |
 
 ## Sorting Algorithms
 
