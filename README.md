@@ -13,8 +13,10 @@ Review
 | Stack | O(n) | O(n) | O(1) | O(1) | *O(n)* |
 | Queue | O(n) | O(n) | O(1) | O(1) | *O(n)* |
 | Hash Table | n/a | O(1) | O(1) | O(1) | *O(n)* |
-| Dictionary | n/a | O(1~n) | O(1~n) | O(1~n) | *O(n)* |
+| Dictionary | n/a | O(1) | O(1) | O(1) | *O(n)* |
 | Sorted Dictionary | n/a | O(log n~n) | O(log n~n) | O(log n~n) | *O(n)* |
+| Hash Set | n/a | O(1) | O(1) | O(1) | *O(n)* |
+| Sorted Set | n/a | O(log n~n) | O(log n~n) | O(log n~n) | *O(n)* |
 
 ## Sorting Algorithms
 
@@ -38,3 +40,5 @@ Review
 Textbook: C# Data Structures and Algorithms by Marcin Jamro
 
 bigocheatsheet.com
+
+http://geekswithblogs.net/BlackRabbitCoder/archive/2011/06/16/c.net-fundamentals-choosing-the-right-collection-class.aspx
