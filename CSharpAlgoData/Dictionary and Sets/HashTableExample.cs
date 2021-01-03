@@ -7,7 +7,7 @@ namespace CSharpAlgoData.Dictionary_and_Sets
 {
     class HashTableExample
     {
-        Hashtable phoneBook = new Hashtable() //create and initialize a hashtable with collections
+        Hashtable phoneBook = new Hashtable() //create and initialize a hashtable with collections, non-generic ie no <>
             {
                 { "Marcin Jamro", "000-000-000" }, // add key and value
                 { "John Smith", "111-111-111" } //add key and value
@@ -52,6 +52,7 @@ namespace CSharpAlgoData.Dictionary_and_Sets
             {
                 Console.WriteLine("The entry does not exist.");
             }
+            
         }
     }
 }
