@@ -11,7 +11,7 @@ namespace CSharpAlgoData
   
         static void Main(string[] args)
         {
-            Swimming a = new Swimming();
+            NameList a = new NameList();
         }
     }
 }

@@ -92,8 +92,8 @@ namespace CSharpAlgoData.Dictionary_and_Sets
             Console.WriteLine($"Pool '{maxVisitors.ToString().ToLower()}' was the most popular.");
 
             //can also print a list of numbers for that pool
-
-            var visitorsForMax = tickets.OrderByDescending(t => t.Value.Count).Select(t => t.Value).FirstOrDefault(); ; //the first t is the highest-I want its value
+            //the first t is the highest-I want its value
+            var visitorsForMax = tickets.OrderByDescending(t => t.Value.Count).Select(t => t.Value).FirstOrDefault(); ; 
             foreach (int type in visitorsForMax)
             {
                 Console.Write($" {type} "); //will show the numbers added
