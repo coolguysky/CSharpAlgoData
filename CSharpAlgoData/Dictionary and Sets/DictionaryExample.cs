@@ -125,7 +125,7 @@ namespace CSharpAlgoData.Dictionary_and_Sets
                     Console.ForegroundColor = ConsoleColor.White;
                     if (employees.TryGetValue(id, out EmployeesForLedger employee))
                     {
-                        Console.WriteLine("First name: {1}{0}Last name: {2}{0}Phone number: {3}", //don't need $
+                        Console.WriteLine("First name: {1}{0}Last name: {2}{0}Phone number: {3}",
                             Environment.NewLine, // 0 a string containing a new line for unix and non-unix platforms
                             employee.FirstName, // 1
                             employee.LastName, //2
