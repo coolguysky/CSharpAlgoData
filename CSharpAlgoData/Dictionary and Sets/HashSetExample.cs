@@ -100,6 +100,14 @@ namespace CSharpAlgoData.Dictionary_and_Sets
             }
             Console.WriteLine();
             Console.WriteLine($"Pool '{maxVisitors.ToString().ToLower()}' was the most popular.");
+
+            //relations between the sets -- very useful 
+
+            HashSet<int> all =new HashSet<int>(tickets[PoolTypeEnum.RECREATION]);
+            all.IntersectWith(tickets[PoolTypeEnum.COMPETITION]);
+            all.IntersectWith(tickets[PoolTypeEnum.THERMAL]);
+            all.IntersectWith(tickets[PoolTypeEnum.KIDS]);
+            Console.WriteLine($"{all.Count} people visited all pools.");
         }
 
         private static bool GetRandomBoolean()
