@@ -19,7 +19,7 @@ Review
 | Sorted Set | n/a | O(log n~n) | O(log n~n) | O(log n~n) | *O(n)* |
 | AVL* | O(log n) | O(log n) | O(log n) | O(log n) | *O(n)* |
 | Red-Black Tree | O(log n) | O(log n) | O(log n) | O(log n) | *O(n)* |
-| Binary Heap | O(n * log n) | O(n * log n) | O(n * log n) | O(n * log n) | *O(n)* |
+
 
 *need to find good AVL C# implementation 
 
@@ -31,6 +31,7 @@ Review
 | Insertion Sort | Ω(n) | Θ(n^2) | O(n^2) | *O(1)* |
 | Bubble Sort | Ω(n) | Θ(n^2) | O(n^2) | *O(1)* |
 | Quicksort | Ω(n log(n)) | Θ(n log(n)) | O(n^2) | *O(log(n))* |
+| Heapsort | Ω(n * log n) | Θ(n * log n) | O(n * log n) | *O(n)* |
 
 ### O - Big Oh (worst): f(n) = O(g(n))
 - f(n) = O(g(n)) if and only if there exist a positive constant, c and a positive integer, n0 , such that 0<= f(n)<= c*g(n) for all n, n>= n0
