@@ -19,6 +19,7 @@ Review
 | Sorted Set | n/a | O(log n~n) | O(log n~n) | O(log n~n) | *O(n)* |
 | AVL* | O(log n) | O(log n) | O(log n) | O(log n) | *O(n)* |
 | Red-Black Tree | O(log n) | O(log n) | O(log n) | O(log n) | *O(n)* |
+| Binary Heap | O(n * log n) | O(n * log n) | O(n * log n) | O(n * log n) | *O(n)* |
 
 *need to find good AVL C# implementation 
 
