@@ -30,7 +30,7 @@ Review
 | Selection Sort | Ω(n^2) | Θ(n^2) | O(n^2) | *O(1)* |
 | Insertion Sort | Ω(n) | Θ(n^2) | O(n^2) | *O(1)* |
 | Bubble Sort | Ω(n) | Θ(n^2) | O(n^2) | *O(1)* |
-| Quicksort | Ω(n log(n)) | Θ(n log(n)) | O(n^2) | *O(log(n))* |
+| Quicksort | Ω(n log n) | Θ(n log n) | O(n^2) | *O(log n)* |
 | Heapsort | Ω(n * log n) | Θ(n * log n) | O(n * log n) | *O(n)* |
 
 ### O - Big Oh (worst): f(n) = O(g(n))
