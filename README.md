@@ -17,6 +17,10 @@ Review
 | Sorted Dictionary | n/a | O(log n~n) | O(log n~n) | O(log n~n) | *O(n)* |
 | Hash Set | n/a | O(1) | O(1) | O(1) | *O(n)* |
 | Sorted Set | n/a | O(log n~n) | O(log n~n) | O(log n~n) | *O(n)* |
+| AVL* | O(log n) | O(log n) | O(log n) | O(log n) | *O(n)* |
+| Red-Black Tree | O(log n) | O(log n) | O(log n) | O(log n) | *O(n)* |
+
+*need to find good AVL C# implementation 
 
 ## Sorting Algorithms
 
