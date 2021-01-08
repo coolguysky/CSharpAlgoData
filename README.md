@@ -1,9 +1,8 @@
 # PERSONAL REFERENCE
 
-C# Algorithms and Data Structures
-Review
+## C# Algorithms and Data Structures - Review
 
-## Data Structures
+### Data Structures
 
 | TIME | get | find | add | remove | *worst space* |
 | :---: | :---: | :---: | :---: | :---: | :---: |
@@ -23,7 +22,7 @@ Review
 
 *need to find good AVL C# implementation 
 
-## Sorting Algorithms
+### Sorting Algorithms
 
 | TIME | best | average | worst | *worst space* |
 | :---: | :---: | :---: | :---: | :---: |
