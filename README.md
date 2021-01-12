@@ -20,8 +20,6 @@
 | Red-Black Tree | O(log n) | O(log n) | O(log n) | O(log n) | *O(n)* |
 
 
-*need to find good AVL C# implementation 
-
 ### Sorting Algorithms
 
 | TIME | best | average | worst | *worst space* |
