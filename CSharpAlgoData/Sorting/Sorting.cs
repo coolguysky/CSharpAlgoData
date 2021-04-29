@@ -60,6 +60,7 @@ namespace CSharpAlgoData.Sorting
                     T temp = newArr[j];
                     newArr[j] = newArr[j - 1];
                     newArr[j - 1] = temp;
+                    j--;
                 }
             }
             return newArr;
